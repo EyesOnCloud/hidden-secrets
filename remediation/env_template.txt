@@ -1,0 +1,29 @@
+# AcmeCorp Payment API — Environment Configuration
+# This file is the TEMPLATE. Never commit a populated .env to git.
+# Each developer fills this in locally. Each environment (dev/staging/prod)
+# gets credentials from a secrets manager (HashiCorp Vault, AWS Secrets Manager).
+
+DB_HOST=
+DB_PORT=5432
+DB_NAME=
+DB_USER=
+DB_PASSWORD=
+
+AWS_ACCESS_KEY_ID=
+AWS_SECRET_ACCESS_KEY=
+AWS_REGION=us-east-1
+S3_BUCKET=
+
+STRIPE_PUBLIC_KEY=
+STRIPE_SECRET_KEY=
+STRIPE_WEBHOOK_SECRET=
+
+JWT_SECRET_KEY=
+JWT_ALGORITHM=HS256
+JWT_EXPIRY_HOURS=24
+
+SENDGRID_API_KEY=
+SENDGRID_FROM_EMAIL=
+
+TWILIO_ACCOUNT_SID=
+TWILIO_AUTH_TOKEN=
